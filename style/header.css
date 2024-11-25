@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --corP: #394437;
+}
+
+.cabecalho {
+    padding: 12px;
+    align-items: center;
+    text-align: center;
+    background-color:  var(--corP);
+    gap: 20px;
+}
+
+.barra-navegacao{
+    background-color: #6c8867;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.link-cabecalho{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media (min-width: 768px){
+
+    .link-cabecalho{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}

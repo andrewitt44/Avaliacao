@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --corS: #6c8867;
+    --corP: #394437;
+}
+
+body {
+    background-color: rgb(245, 245, 235);
+}
+
+.titulo-sobre-nos{
+    display: flex;
+    justify-content: center;
+    color: var(--corP);
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.img-sobre-nos{
+    border-radius: 15px;
+    box-shadow:  rgba(7, 8, 6, 0.2) 0px 7px 29px 0px;  
+}
+
+.imagem-sobre-nos {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0;  
+}
+
+.texto-sobre-nos{
+    color: var(--corP);
+    font-weight: 400;
+    margin: 3em;
+    text-align: justify;
+}
+
+@media (min-width: 768px){
+
+
+    .conteudo{
+    display: flex;
+    margin: 4em;
+    margin-top: 1em;
+    }
+
+    .texto-sobre-nos{
+        color: var(--corP);
+        font-weight: 400;
+        margin: 3em;
+        text-align: justify;
+        align-items: center;
+    }
+    
+    .titulo-sobre-nos{
+        display: flex;
+        justify-content: left;
+        color: var(--corP);
+        font-size: 28px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-left: 2em;
+    }
+    
+}

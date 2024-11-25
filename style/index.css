@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --corS: #6c8867;
+    --corP: #394437;
+}
+
+body {
+    background-color: rgb(245, 245, 235);
+}
+
+.capa {
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 14em;
+}
+
+.titulo-capa {
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    padding: 2.5em;
+    padding-bottom: 1em;
+}
+
+.btn-descubra {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-btn-descubra {
+    background-color: var(--corP);
+    border-radius: 100px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.vista-verde {
+    border-radius: 15px;
+    box-shadow:  rgba(7, 8, 6, 0.2) 0px 7px 29px 0px;  
+}
+
+.imagem-quem-somos {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;  
+}
+
+.texto-quem-somos {
+    color: var(--corP);
+    font-weight: 400;
+    margin: 3em;
+    text-align: justify;
+}
+
+.titulo-produtos{
+    display: flex;
+    justify-content: center;
+    color: var(--corP);
+    font-size: 28px;
+    font-weight: 500;
+}
+.img-produto-destacado{
+    border-radius: 15px;
+    box-shadow:  rgba(7, 8, 6, 0.2) 0px 7px 29px 0px;  
+}
+
+.imagem-produto-destacado{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 30px 0;  
+}
+
+.nome-produto-destacado{
+    display: flex;
+    justify-content: center;
+    color: var(--corP);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.btn-saiba-mais{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.texto-btn-saiba-mais{
+    background-color: var(--corP);
+    border-radius: 100px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 10px 0 30px 0;
+    text-decoration: none;
+}
+
+.btn-conheca{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-btn-conheca{
+    background-color: var(--corP);
+    border-radius: 100px;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 10px 0 30px 0;
+}
+
+@media (min-width: 768px){
+
+.Quem-somos{
+    display: flex;
+    margin: 4em;
+    align-items: center;
+}
+
+.produtos-dst{
+    display: flex;
+    margin: 4em;
+    justify-content: space-between;
+}
+
+.capa {
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30em;
+
+}
+
+.titulo-capa {
+    color: #ffffff;
+    text-align: center;
+    font-size: 34px;
+    padding: 5.5em;
+    padding-bottom: 1em;
+}
+
+
+.texto-btn-descubra {
+    background-color: var(--corP);
+    border-radius: 100px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: none;
+}
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --corS: #6c8867;
+    --corP: #394437;
+}
+
+.rodape{
+    background-color: var(--corP);
+}
+
+.texto-footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    text-align: justify;
+    font-size:14px;
+    padding:3em;
+}
